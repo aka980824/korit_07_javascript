@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=
+  , initial-scale=1.0">
+  <title>ineerHTML / innerText</title>
+</head>
+<body>
+  <select id="sel"></select>
+  <h1 id = "title"></h1>
+  <script>
+    let sel =document.getElementById('sel');
+    // 메서드의 호출 결과를 sel이라는 변수에 저장
+    // 그렇다면 여기 sel내에는 key-value propertys가 있다는의미
+    // 객체명. 키값
+    sel.innerHTML = '<option value ="">---선택---</optiom>'
+    // 한번 쓰고 말거니까, chaining method를 쓴 이후 key값
+      document.getElementById('title').innerHTML='제목부분임'
+  </script>
+</body>
+</html>
