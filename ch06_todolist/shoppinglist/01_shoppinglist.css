@@ -1,0 +1,13 @@
+@import url('../01_todolist.css');
+
+/*01_todolist.css를 import하여 가지고온 .input group input이 있으나 추가 조건을 걸었음*/
+.input-group input{
+  /*기존 todolist와 동일 아래만 추가*/
+  width:0;
+}
+
+/* 이 id 선택자의 경우 todolist에는 없는 부분이기에 추가해주었음 */
+#price-input {
+  /* 해당 내용이 더 디테일하기에, input-group input가 동일한 속성이 있을시 해당내용이 반영 */
+  flex-grow: 0.5; 
+}
