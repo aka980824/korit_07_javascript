@@ -1,4 +1,3 @@
-
 const todoInput = document.getElementById('todo-input');  // 메서드 결과값을 변수에 대입
 const addBtn = document.getElementById('add-btn');
 const todoList = document.getElementById('todo-list');
